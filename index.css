@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#app{
+    background: linear-gradient(190deg, rgb(0, 204, 255), blue);
+    height: 100vh;
+    text-align: center;
+}
+.add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+}
+#input{
+    outline: none;
+    border-radius: 4px;
+    height: 40px;
+    font-size: 20px;
+    width: 290px;
+    border: none;
+}
+#input:focus{
+    background: turquoise;
+}
+#btn{
+    outline: none;
+    margin-left: 1rem;
+    border-radius: 4px;
+    background: white;
+    height: 40px;
+    width: 40px;
+    border: none;
+}
+#btn:hover{
+    transform: rotate(360deg);
+    transition: .4s;
+    background: rgb(0, 204, 255);
+    cursor: pointer;
+}
+.text{
+    color: rgb(0, 204, 255);
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.line{
+    text-decoration: line-through;
+}
